@@ -14,15 +14,14 @@ const Routes = () => {
       {/* <nav class="navbar navbar-dark"> */}
         {[
           {
-            path: "/",
-            title: "HISTORY"
-          },
-          {
             path: "/list",
             title: "PAYLOADS"
+          },
+          {
+            path: "/",
+            title: "HISTORY"
           }
-        ].map((link) => (
-          
+        ].map((link) => (  
           <Link style={{ padding: 20 }} key={link.path} to={link.path}>
             {link.title}{" "}
           </Link>
@@ -31,7 +30,6 @@ const Routes = () => {
         <Route path="/" exact component={Home} />
         <Route path="/list" component={Payloads} />
         {/* <Route path="/list" component={QuoteList} /> */}
-     
       </div>
     </Provider>
   );
