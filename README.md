@@ -10,7 +10,7 @@ This project was created  with  React[Create React App](https://github.com/faceb
 
 Implemented pagination.
 
-<a href =  "https://spacex-406a1.firebaseapp.com/list">
+<a href =  "https://spacex-406a1.firebaseapp.com">
   <button style = "background:red,padding:5px">Demo Link</button>
 </a>
  
