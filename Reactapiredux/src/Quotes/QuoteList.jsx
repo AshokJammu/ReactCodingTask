@@ -28,11 +28,11 @@ class QuoteList extends React.Component {
           path="/list/:page"
           render={({ match }) => <div>{match.params.page}</div>}
         /> */}
-
+{/* 
         <Route
           path="/list/:page"
           render={(props) => <QuoteItem {...props} />}
-        />
+        /> */}
       </div>
     );
   }
